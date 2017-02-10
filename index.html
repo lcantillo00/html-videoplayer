@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1> My first html video page</h1>
+        <div class="wrapper">
+            <video controls id="video" class="video1">
+            <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4 " type ="video/mp4">
+                <source src ="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.ogg" type ="video/ogg">
+        </video>
+            <div class="playpause"></div>
+        </div>
+        <div class="icons">
+            <i class="fa fa-arrow-down" id="slow" aria-hidden="true"></i>
+            <i class="fa fa-arrow-up" id="fast" aria-hidden="true"></i>
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
